@@ -1,0 +1,27 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: fixed;
+  top: 0;
+
+  width: 100%;
+
+  height: 50px;
+  padding: 0 20px;
+  background-color: #f8f9fa31;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  /* 왼쪽 정렬! */
+}
+
+.links {
+  display: flex;
+}
+
+.links a {
+  margin: 0 10px 0 10px;
+}

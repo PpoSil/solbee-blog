@@ -1,0 +1,26 @@
+.introduction-container {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-around;
+
+  height: 50vh;
+
+  background-color: #d68282;
+}
+
+.picture-container {
+  background-color: rgb(77, 13, 137);
+  flex: 0.7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.whoAmI-container {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(34, 114, 58);
+}
